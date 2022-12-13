@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "849737661821",
+    "project_id": "kmong-fcm-and-getx",
+    "storage_bucket": "kmong-fcm-and-getx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849737661821:android:44204dddf74575ac94e014",
+        "android_client_info": {
+          "package_name": "com.rkdrltks.kmong_fcm_getx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849737661821-cklsko0d3horfqf20ruh1noghic01h7b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1pTFQWmpipvbZYiG9uxRDDdDTBMNA2WY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849737661821-cklsko0d3horfqf20ruh1noghic01h7b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "849737661821-dgn6igksasds229dbh4rq8404j8hvdqv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rkdrltks.kmongFcmGetx"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
