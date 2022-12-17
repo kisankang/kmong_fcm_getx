@@ -19,7 +19,6 @@ class HomePage extends GetWidget<HomeController> {
                   print("my FCM token: $token");
                 },
                 child: Text("토큰 받기")),
-            ElevatedButton(onPressed: () {}, child: Text("FCM 알림 받기"))
           ],
         ),
       ),
