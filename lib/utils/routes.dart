@@ -3,6 +3,7 @@ import 'package:kmong_fcm_getx/modules/home/home_binding.dart';
 import 'package:kmong_fcm_getx/modules/home/home_page.dart';
 import 'package:kmong_fcm_getx/modules/login/login_binding.dart';
 import 'package:kmong_fcm_getx/modules/login/login_page.dart';
+
 import 'package:kmong_fcm_getx/modules/splash/splash_binding.dart';
 import 'package:kmong_fcm_getx/modules/splash/splash_page.dart';
 

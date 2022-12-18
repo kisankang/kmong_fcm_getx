@@ -8,11 +8,19 @@ class HomeController extends GetxController {
   AccountService accountService;
   HomeController({required this.accountService});
 
+  late String userID;
+
   getUserID() {
     return accountService.myAccount?.id ?? "아이디 정보 없음";
   }
 
   getFCMtoken() async {
     return await FirebaseMessaging.instance.getToken();
+  }
+
+  @override
+  void onInit() {
+    super.onInit();
+    userID = getUserID();
   }
 }
